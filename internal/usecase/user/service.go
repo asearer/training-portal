@@ -5,14 +5,14 @@ import (
 	"regexp"
 
 	"training-portal/internal/domain/user"
-	"training-portal/internal/interface/repository/postgres"
+	"training-portal/internal/interface/repository"
 
 	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 )
 
 type UserService struct {
-	Repo *postgres.UserRepository
+	Repo repository.UserRepository
 }
 
 // ValidateEmail checks if the email is in a valid format.

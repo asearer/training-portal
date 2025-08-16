@@ -4,13 +4,13 @@ import (
 	"errors"
 
 	"training-portal/internal/domain/course"
-	"training-portal/internal/interface/repository/postgres"
+	"training-portal/internal/interface/repository"
 
 	"github.com/google/uuid"
 )
 
 type CourseService struct {
-	Repo *postgres.CourseRepository
+	Repo repository.CourseRepository
 }
 
 // ValidateTitle checks if the course title is valid (non-empty, reasonable length).

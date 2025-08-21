@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ab403a2-0849-4326-8a8d-a9fb4a439fde" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/analytics.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/analytics.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/certificate.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/certificate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/enrollment.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/enrollment.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/forum.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/forum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/000_init_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/seed_all.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/message.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/notification.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/notification.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/progress.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/progress.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/interface/http/handler/quiz.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/handler/quiz.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/interface/http/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/http/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/courses/CourseDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/courses/CourseDetail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/interface/repository/course_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/repository/course_repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/interface/repository/user_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/interface/repository/user_repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/usecase/course/module_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/usecase/course/module_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/usecase/course/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/usecase/course/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

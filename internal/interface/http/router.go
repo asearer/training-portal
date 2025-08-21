@@ -1,4 +1,3 @@
-// File: internal/interface/http/router.go
 // Sets up Fiber routes, middleware, and starts the server
 
 package router
@@ -104,7 +103,10 @@ func SetupAndRun() {
 // setEnvIfEmpty sets an environment variable if it is not already set.
 func setEnvIfEmpty(key, value string) {
 	if os.Getenv(key) == "" && value != "" {
-		os.Setenv(key, value)
+		if err := os.Setenv(key, value); err != nil {
+			// Log the error but continue execution
+			log.Printf("Warning: failed to set environment variable %s: %v", key, err)
+		}
 	}
 }
 

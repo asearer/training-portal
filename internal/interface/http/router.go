@@ -9,6 +9,9 @@ import (
 	"training-portal/configs"
 	"training-portal/internal/interface/http/handler"
 	"training-portal/internal/interface/http/middleware"
+	"training-portal/internal/interface/repository/postgres"
+	courseusecase "training-portal/internal/usecase/course"
+	userusecase "training-portal/internal/usecase/user"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
